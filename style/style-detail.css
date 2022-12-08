@@ -1,0 +1,210 @@
+.flex-header {
+   display: flex;
+   padding-inline: 40px;
+   justify-content: space-between;
+}
+
+.flex-header > div {
+   padding-inline: 40px;
+   text-align: center;
+   align-items: center;
+   align-content: center;
+   align-self: center;
+}
+
+a:link {
+   text-decoration: none;
+   color: black;
+}
+
+.logo-text {
+   font-size: 20px;
+   font-weight: 700;
+   color: black;
+}
+
+.detail-nft {
+   margin-bottom: 100px;
+   margin-top: 43px;
+}
+
+.nav-content-center {
+   font-weight: 500;
+   display: flex;
+   justify-content: center;
+}
+
+.nav-item {
+   padding-inline: 25px;
+   text-align: center;
+   font-weight: 700;
+}
+
+.nav-content-end {
+   justify-content: end;
+}
+
+header {
+   /* background-color:blueviolet; */
+   padding-block: 20px;
+}
+
+.title {
+   font-weight: 700;
+   font-size: 48px;
+}
+
+.fav {
+   font-size: 20px;
+}
+
+.creator {
+   font-weight: 500;
+   color: grey;
+   margin-top: 50px;
+   margin-bottom: 15px;
+}
+
+.creator-user {
+   border-radius: 100px;
+   border: 2px solid black;
+   width: fit-content;
+   padding: 10px 10px;
+   font-weight: 600;
+}
+
+.owner {
+   font-weight: 500;
+   color: grey;
+   margin-top: 25px;
+   margin-bottom: 15px;
+}
+
+.owner-user {
+   border-radius: 100px;
+   border: 2px solid black;
+   width: fit-content;
+   padding: 10px 10px;
+   font-weight: 600;
+}
+
+.desc {
+   font-weight: 500;
+   color: grey;
+   /* margin-top: 50px; */
+   margin-bottom: 15px;
+}
+
+.desc-text {
+   font-size: 20px;
+}
+
+.payment {
+   margin-top: 35px;
+   background-color: #FEFEFE;
+   border-radius: 20px;
+   padding: 20px 30px;
+   width: 320px;
+}
+
+.buy-button {
+   background-color: black;
+   color: #fefefe;
+   margin-top: 20px;
+   padding: 10px 35px;
+   font-size: 16px;
+   font-weight: 500;
+   border-radius: 10px;
+}
+
+.pay-button {
+   width: 260px;
+   background-color: #3B80FF;
+   border: 0;
+   color: #fefefe;
+   /* margin-top: 20px; */
+   padding: 10px 35px;
+   font-size: 16px;
+   font-weight: 500;
+   border-radius: 10px;
+}
+
+.buy-button:hover {
+   border: 0px;
+   background-color: #F8F9FD;
+   color: black;
+}
+
+.profile {
+   font-weight: 700;
+   font-size: 16px;
+}
+
+/* card home */
+
+.container-card {
+   width: 530px;
+   height: 742px;
+   background: #FEFEFE;
+   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+   border-radius: 30px;
+}
+
+.title-card {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-block: 25px;
+   padding-inline: 46px;
+}
+
+.left-title {
+   display: flex;
+   align-items: center;
+}
+
+.nonft {
+   font-weight: 400;
+   font-size: 32px;
+   margin-left: 13px;
+}
+
+.acc-name {
+   font-weight: 400;
+   font-size: 24px;
+   color: #8A8A8A;
+}
+
+.nft-img {
+   text-align: center;
+}
+
+.body1 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 35px 46px 0px 46px;
+}
+
+.time-countdown {
+   font-weight: 500;
+   font-size: 32px;
+}
+
+.price {
+   font-weight: 800;
+   font-size: 32px;
+}
+
+.body2 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px 46px 25px 46px;
+}
+
+.remaining-time, .bid {
+   font-weight: 500;
+   font-size: 22px;
+   color: #8A8A8A;
+}
